@@ -1,18 +1,19 @@
 SwingUtils Java API
 -------------------
+Copyright (C) 2014 Tilmann Kuhn
+See LICENSE.txt for details of the MIT license.
 
-Contents:
+Contents of this readme:
 
 * Purpose
 * Target audience
 * Installation notes
-* Changes History
+* Change history
 * Contents of the release
 * How to get started
 * How to build
-* How to reach me 
+* How to contact me 
 * Limitations and bugs
-* Copyright
 
 
 
@@ -40,8 +41,10 @@ Just put the jar file into your classpath.
 
 
 
-CHANGES HISTORY
-0.9.4  - [Changed] README, build script
+CHANGE HISTORY
+
+0.9.5  - [Changed] README, LICENSE
+0.9.4  - [Changed] README, build script, JavaDoc
 0.9.3  - [Changed] JUserFriendlyTable
           Fixed NullPointerException in blanaceColumns()
           balanceColumns() does not do anything if columnModel or tableHeader are null   
@@ -148,9 +151,8 @@ is also included.
 
 
 
-HOW TO REACH ME
+HOW TO CONTACT ME
 
-The e.ways to reach me:
 http://www.tkuhn.de
 swingutils@tkuhn.de
 
@@ -158,32 +160,4 @@ swingutils@tkuhn.de
 
 LIMITATIONS AND BUGS
 
-Not known so far. Please report your experiences to swingutils@tkuhn.de
-
-
-
-
-THE MIT LICENSE
-
-Copyright (C) 2014 
-Tilmann Kuhn           Ginnheimer Str. 33
-http://www.tkuhn.de    60487 Frankfurt am Main
-swingutils@tkuhn.de    Germany
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
+Not known so far. Please report your experiences to me.

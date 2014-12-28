@@ -1,9 +1,6 @@
 The MIT License
 
-Copyright (C) 2003 
-Tilmann Kuhn           Gildestr. 34
-http://www.tkuhn.de    76149 Karlsruhe
-swingutils@tkuhn.de    Germany
+Copyright (C) 2014 Tilmann Kuhn
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
