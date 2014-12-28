@@ -3,3 +3,5 @@
 /docs
 /test_build
 /*.jar
+/*.zip
+/complete_dist
