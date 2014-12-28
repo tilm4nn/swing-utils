@@ -128,7 +128,7 @@ public class RowSortingTableModel extends AbstractTableModel implements
 	}
 
 	/**
-	 * Set a new <code>TableModel<code> at a table you have enabled row sorting
+	 * Set a new <code>TableModel</code> at a table you have enabled row sorting
 	 * before using <code>enableRowSorting(table)</code>. This will keep the
 	 * sorting state if the new model is similar to the old one.
 	 * 
@@ -398,7 +398,7 @@ public class RowSortingTableModel extends AbstractTableModel implements
 	 * order. Also notifies listeners of changes.
 	 * 
 	 * @param columnIndex
-	 *            index of column to sort by. Could be an int >= 0 or NO_COLUMN
+	 *            index of column to sort by. Could be an int &gt;= 0 or NO_COLUMN
 	 * @param order
 	 *            can be ASCENDING or DESCENDING
 	 * @see #NO_COLUMN

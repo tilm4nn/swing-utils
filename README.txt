@@ -1,13 +1,12 @@
-                   README: SwingUtils 0.9.3 Release
-                   --------------------------------
-                             August 2003
-
+SwingUtils Java API
+-------------------
 
 Contents:
 
-* Installation notes
+* Purpose
 * Target audience
-* Changes since the 0.9 release
+* Installation notes
+* Changes History
 * Contents of the release
 * How to get started
 * How to build
@@ -16,9 +15,16 @@ Contents:
 * Copyright
 
 
-INSTALLATION NOTES
 
-Just put the jar file into your classpath.
+PURPOSE
+
+A Java API that adds some reusable components to the Java Swing API. It
+contains an extension of the JTable providing sort by column, hiding/
+showing of columns, auto balance column width, save and restore of table
+state (sort order, column width, column position, column visibility). In
+addition there is an ActionManager that helps in creating and managing
+Action objects, make Actions visible in the GUI and react to user
+interaction.
 
 
 
@@ -28,8 +34,14 @@ Java Swing developers.
 
 
 
-CHANGES SINCE THE 0.9 RELEASE
+INSTALLATION NOTES
 
+Just put the jar file into your classpath.
+
+
+
+CHANGES HISTORY
+0.9.4  - [Changed] README, build script
 0.9.3  - [Changed] JUserFriendlyTable
           Fixed NullPointerException in blanaceColumns()
           balanceColumns() does not do anything if columnModel or tableHeader are null   
@@ -153,9 +165,9 @@ Not known so far. Please report your experiences to swingutils@tkuhn.de
 
 THE MIT LICENSE
 
-Copyright (C) 2003 
-Tilmann Kuhn           Gildestr. 34
-http://www.tkuhn.de    76149 Karlsruhe
+Copyright (C) 2014 
+Tilmann Kuhn           Ginnheimer Str. 33
+http://www.tkuhn.de    60487 Frankfurt am Main
 swingutils@tkuhn.de    Germany
 
 Permission is hereby granted, free of charge, to any person obtaining a copy

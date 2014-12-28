@@ -84,7 +84,7 @@
 -->
 
   <property name="app.name"        value="SwingUtils"/>
-  <property name="app.version"     value="0.9.3"/>
+  <property name="app.version"     value="0.9.4"/>
   <property name="app.author"      value="Tilmann Kuhn"/>
   <property name="app.dist.name"   value="${app.name}-${app.version}"/>
   
@@ -135,7 +135,9 @@
 
   <property name="compile.debug"       value="true"/>
   <property name="compile.deprecation" value="false"/>
-  <property name="compile.optimize"    value="true"/>  
+  <property name="compile.optimize"    value="true"/> 
+  <property name="compile.source"      value="5"/> 
+  <property name="compile.target"      value="5"/>   
 
   
     
@@ -212,7 +214,10 @@
                destdir="${test.build.home}"
                  debug="${compile.debug}"
            deprecation="${compile.deprecation}"
-              optimize="${compile.optimize}">
+              optimize="${compile.optimize}"
+                source="${compile.source}"
+                target="${compile.target}"
+     includeantruntime="false">
               
       <classpath refid="test.compile.classpath"/>
     </javac>
@@ -226,7 +231,10 @@
                destdir="${build.home}"
                  debug="${compile.debug}"
            deprecation="${compile.deprecation}"
-              optimize="${compile.optimize}">
+              optimize="${compile.optimize}"
+                source="${compile.source}"
+                target="${compile.target}"
+     includeantruntime="false">
               
       <classpath refid="compile.classpath"/>
     </javac>

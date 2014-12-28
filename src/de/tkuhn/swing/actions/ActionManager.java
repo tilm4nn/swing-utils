@@ -297,7 +297,7 @@ public class ActionManager extends HashMap<Object, Action> implements
 
 	/**
 	 * Implementation of <code>put(key,value)</code> in interface
-	 * <code>java.util>Map</code>. Overrides <code>put(key,value)</code> in
+	 * <code>java.util.Map</code>. Overrides <code>put(key,value)</code> in
 	 * <code>java.util.HashMap</code> to deny the putting of non
 	 * <code>Action</code> objects.
 	 * 
@@ -329,7 +329,7 @@ public class ActionManager extends HashMap<Object, Action> implements
 
 	/**
 	 * This method can be used to put all <code>Action</code>s in the given Map
-	 * into this <cod>ActionManager</code>. Non <code>Action</code> objects are
+	 * into this <code>ActionManager</code>. Non <code>Action</code> objects are
 	 * ignored as are any <code>Action</code>s that are associated with a
 	 * <code>null</code> key. <b>Caution: If an <code>Action</code> fires, that
 	 * was not created by this <code>ActionManager</code> listeners of this
