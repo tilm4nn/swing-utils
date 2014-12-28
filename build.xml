@@ -84,7 +84,7 @@
 -->
 
   <property name="app.name"        value="SwingUtils"/>
-  <property name="app.version"     value="0.9.4"/>
+  <property name="app.version"     value="0.9.5"/>
   <property name="app.author"      value="Tilmann Kuhn"/>
   <property name="app.dist.name"   value="${app.name}-${app.version}"/>
   
